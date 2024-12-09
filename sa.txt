@@ -9,6 +9,7 @@ printf("RESULT=%d",c);
 
 #include<stdio.h>
 int main()
+<<<<<<< HEAD
 t{
 int a=10 b=20 temp;
 temp=a;
@@ -17,3 +18,13 @@ b=temp;
 printf("a&b:",a,b);
 }
 
+=======
+{
+int a=10,b=20;
+printf("before swapping %d%d",a,b);
+a=a+b;
+b=a-b;
+a=a-b;
+printf("after swapping %d%d",a,b);
+}
+>>>>>>> e37f3e5aa59ab5941adfb6a093ecb4523003d447
